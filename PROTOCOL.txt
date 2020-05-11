@@ -1,0 +1,9 @@
+Protocol Description 
+Ishan Chaurasia - 101011068
+Reece Pillenger - 101013264
+
+This assignment required us to create a multi threaded server to deal with multiple file transfers at the same time. 
+When the server its started it is listening on port 1427. It has a fixed thread pool of 10, meaning it can handle 10 connections 
+at one time. When Client.java is executed, it sends a request for a file to the address and port of the server, once the server 
+receives this request, it will look up to see if it has the file. When the server locates the file, it will send it to the requesting 
+client and increment its request counter. 
